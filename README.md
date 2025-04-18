@@ -9,8 +9,8 @@ for further analysis.
 
 # ⚠️ THE PURPOSE OF THIS SCRIPT!
 
-This scrit is intended simply as an idea of how one can Monitor Log FIles. NOT for Use 
-in a Security Environment / Workplace!
+This scrit is intended simply as an idea of how one can Monitor Log FIles. It's NOT for Use 
+in a Security Environment!
 
 # FEATURES
 
