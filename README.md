@@ -37,10 +37,12 @@ USAGE
 
 
 Running the script directly
-0
+
 python3 log_hawk_proj.py
 
-Setting up CRON job for automated execution every 10 minutes:
+Setting up CRON job 
+
+A0.utomated execution every 10 minutes:
 
 */10 * * * * /usr/bin/python3 (path to the script file)/log_hawk_proj.py
 
