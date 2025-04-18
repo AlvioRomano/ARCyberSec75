@@ -8,12 +8,14 @@ import datetime
 import subprocess
 
 # Load regex patterns from YAML config file
+
 def load_patterns(config_path):
     with open(config_path, 'r') as file:
         config = yaml.safe_load(file)
     return config.get('patterns', []), config.get('log_paths', []), config.get('alert_log', 'alerts.log')
 
 # Search logs using regex (Python re module)
+
 def search_logs_with_regex(log_paths, patterns):
     alerts = []
     for path in log_paths:
@@ -27,6 +29,7 @@ def search_logs_with_regex(log_paths, patterns):
     return alerts
 
 # Alternative: Search logs using grep (optional)
+
 def search_logs_with_grep(log_paths, patterns):
     alerts = []
     for path in log_paths:
@@ -43,6 +46,7 @@ def search_logs_with_grep(log_paths, patterns):
     return alerts
 
 # Write alerts to log file
+
 def write_alerts(alerts, alert_log):
     with open(alert_log, 'a') as f:
         for path, line, pattern in alerts:
@@ -51,6 +55,7 @@ def write_alerts(alerts, alert_log):
             print(f"[!] Alert: {line} (Matched: {pattern})")
 
 # Main logic
+
 def main():
     parser = argparse.ArgumentParser(description='LogHawk - Log Monitoring Tool')
     parser.add_argument('--config', type=str, default='config.yaml', help='Path to config YAML file')
