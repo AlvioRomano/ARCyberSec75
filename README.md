@@ -7,7 +7,8 @@ activities and potential security threats. When suspicious logs are
 detected, they are recorded in a comprehensive log file (comp_log.txt) 
 for further analysis.
 
-# ⚠️ However, this script is not intended to be used for Real-World 
+# ⚠️ THIS SCRIPT IS NOT INTENDED FOR REAL LIFE WORK!!
+
    Security Monitoring of Log Files. It is simply an idea of how 
    we can Monitor Log Files.
 
