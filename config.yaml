@@ -16,6 +16,7 @@ alert_log: alerts.log
 patterns:
 
   # 🛑 Too Many Failed Logins
+  
   - "Failed password for.*from.*port.*ssh"
   - "401 Unauthorized"
 
