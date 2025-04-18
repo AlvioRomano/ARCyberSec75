@@ -37,13 +37,13 @@ Command: sudo apt-get install python3
 
 Running the script directly
 
-python3 log_hawk_proj.py
+Command: python3 log_hawk_proj.py
 
 # SETTING UP A CRON JOB 
 
 Automated execution every 10 minutes.
 
-*/10 * * * * /usr/bin/python3 (path to the script file)/log_hawk_proj.py
+Command: */10 * * * * /usr/bin/python3 (path to the script file)/log_hawk_proj.py
 
 # CUSTOMIZATION
 
@@ -51,25 +51,26 @@ Inside the def main() function add the path to your Access log file, Application
 
 def main():
 
-Add Access Log file path here
+ACCESS LOG PATH
 
 access_path = "/media/sf_shared/access.log"
 
-Add Application Log file path here
+APPLICATION LOG PATH
 
 app_path = "/media/sf_shared/app.log"
 
-Add Auth Log file path here
+AUTHENTICATION LOG PATH
 
 auth_path = "/media/sf_shared/auth.log"
 
-Add System Log file path here
+SYSTEM LOG PATH
 
 system_path = "/media/sf_shared/system.log"
 
 # DEPENDENCIES
 
 ✅Python 3.x
+
 ✅Standard Python libraries (re, os, datetime)
 
 # LICENSE 📝
