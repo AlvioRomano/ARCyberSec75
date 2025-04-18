@@ -1,4 +1,4 @@
-# Description
+# DESCRIPTION
 
 LogHawk is a Python-based log monitoring tool developed as part 
 of the Lighthouse Labs Bootcamp Project. It monitors various system 
@@ -9,8 +9,7 @@ for further analysis.
 
 # ⚠️ THIS SCRIPT IS NOT INTENDED FOR REAL LIFE WORK!!
 
-   Security Monitoring of Log Files. It is simply an idea of how 
-   we can Monitor Log Files.
+It is simply an idea of how we can Monitor Log Files.
 
 # FEATURES
 
