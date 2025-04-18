@@ -76,4 +76,4 @@ system_path = "/media/sf_shared/system.log"
 
 # License 📝
 
-# 🛑Use the Script at your own Risk!🛑 Dsec
+# 🛑 Use This Script At Your Own Risk and Peril! 🛑
