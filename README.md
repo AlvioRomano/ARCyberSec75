@@ -1,6 +1,4 @@
-# ARCyberSec75
-
-DESCRIPTION
+# Description
 
 LogHawk is a Python-based log monitoring tool developed as part 
 of the Lighthouse Labs Bootcamp Project. It monitors various system 
