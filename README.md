@@ -11,7 +11,7 @@ for further analysis.
    Security Monitoring of Log Files. It is simply an idea of how 
    we can Monitor Log Files.
 
-FEATURES
+# FEATURES
 
 ✅ Real-time monitoring of multiple log types
 
@@ -23,30 +23,29 @@ FEATURES
 
 ✅ Comprehensive log recording for security analysis
 
-INSTALLATION 💻
+# INSTALLATION 💻
 
 Ensure Python 3.x is installed
 
-python3 --version
+Command: python3 --version
 
 Install Python 3.X
 
-sudo apt-get install python3
+Command: sudo apt-get install python3
 
-USAGE
-
+# USAGE
 
 Running the script directly
 
 python3 log_hawk_proj.py
 
-Setting up CRON job 
+# SETTING UP A CRON JOB 
 
 Automated execution every 10 minutes.
 
 */10 * * * * /usr/bin/python3 (path to the script file)/log_hawk_proj.py
 
-CUSTOMIZATION
+# CUSTOMIZATION
 
 Inside the def main() function add the path to your Access log file, Application file, Auth log file and System Log file.
 
@@ -68,10 +67,10 @@ Add System Log file path here
 
 system_path = "/media/sf_shared/system.log"
 
-DEPENDENCIES
+# DEPENDENCIES
 
 ✅Python 3.x
 ✅Standard Python libraries (re, os, datetime)
 
-LICENSE 📝
+# LICENSE 📝
 🛑Use the Script at your own Risk!🛑
