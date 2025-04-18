@@ -1,4 +1,4 @@
-# DESCRIPTION
+# Dscription
 
 LogHawk is a Python-based log monitoring tool developed as part 
 of the Lighthouse Labs Bootcamp Project. It monitors various system 
@@ -7,12 +7,12 @@ activities and potential security threats. When suspicious logs are
 detected, they are recorded in a comprehensive log file (comp_log.txt) 
 for further analysis.
 
-# ⚠️ THE PURPOSE OF THIS SCRIPT!
+# ⚠️ Thr Purpose Of This Script
 
 This scrit is intended simply as an idea of how one can Monitor Log FIles. It's NOT for Use 
 in a Security Environment!
 
-# FEATURES
+# Features
 
 ✅ Real-time monitoring of multiple log types
 
@@ -24,7 +24,7 @@ in a Security Environment!
 
 ✅ Comprehensive log recording for security analysis
 
-# INSTALLATION 💻
+# Installation 💻
 
 Ensure Python 3.x is installed
 
@@ -34,19 +34,19 @@ Install Python 3.X
 
 Command: sudo apt-get install python3
 
-# USAGE
+# Usage
 
 Running the script directly
 
 Command: python3 log_hawk_proj.py
 
-# SETTING UP A CRON JOB 
+# Setting Up A Cron Job 
 
 Automated execution every 10 minutes.
 
 Command: */10 * * * * /usr/bin/python3 (path to the script file)/log_hawk_proj.py
 
-# CUSTOMIZATION
+# Customization
 
 Inside the def main() function add the path to your Access log file, Application file, Auth log file and System Log file.
 
@@ -68,12 +68,12 @@ SYSTEM LOG PATH
 
 system_path = "/media/sf_shared/system.log"
 
-# DEPENDENCIES
+# Dependancies
 
 ✅Python 3.x
 
 ✅Standard Python libraries (re, os, datetime)
 
-# LICENSE 📝
+# License 📝
 
 # 🛑Use the Script at your own Risk!🛑
