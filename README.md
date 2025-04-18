@@ -51,19 +51,19 @@ Inside the def main() function add the path to your Access log file, Application
 
 def main():
 
-ACCESS LOG PATH
+# ACCESS LOG PATH
 
 access_path = "/media/sf_shared/access.log"
 
-APPLICATION LOG PATH
+# APPLICATION LOG PATH
 
 app_path = "/media/sf_shared/app.log"
 
-AUTHENTICATION LOG PATH
+# AUTHENTICATION LOG PATH
 
 auth_path = "/media/sf_shared/auth.log"
 
-SYSTEM LOG PATH
+# SYSTEM LOG PATH
 
 system_path = "/media/sf_shared/system.log"
 
@@ -74,4 +74,5 @@ system_path = "/media/sf_shared/system.log"
 ✅Standard Python libraries (re, os, datetime)
 
 # LICENSE 📝
-🛑Use the Script at your own Risk!🛑
+
+# 🛑Use the Script at your own Risk!🛑
