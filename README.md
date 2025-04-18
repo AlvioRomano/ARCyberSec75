@@ -35,8 +35,9 @@ sudo apt-get install python3
 
 USAGE
 
-Running the script directly
 
+Running the script directly
+0
 python3 log_hawk_proj.py
 
 Setting up CRON job for automated execution every 10 minutes:
