@@ -1,4 +1,4 @@
-# Dscription
+# Desription
 
 LogHawk is a Python-based log monitoring tool developed as part 
 of the Lighthouse Labs Bootcamp Project. It monitors various system 
@@ -76,4 +76,4 @@ system_path = "/media/sf_shared/system.log"
 
 # License 📝
 
-# 🛑Use the Script at your own Risk!🛑
+# 🛑Use the Script at your own Risk!🛑 Dsec
